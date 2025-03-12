@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * http://localhost:8080/test
  */
-@WebServlet(urlPatterns="/test")
+@WebServlet(urlPatterns = "/test")
 public class TestServlet extends HttpServlet {
 
     @Override
